@@ -1,4 +1,6 @@
 require("ola.launch")
+require("ola.keymaps")
 require("ola.options")
 spec("ola.colorscheme")
+spec("ola.neotree")
 require("ola.lazy")
