@@ -13,6 +13,8 @@ function M.config()
   local icons = require "ola.icons"
 
   require("neo-tree").setup({
+    close_if_last_window = true,
+
     default_component_configs = {
       git_status = {
         symbols = {

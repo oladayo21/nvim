@@ -30,7 +30,8 @@ local options = {
   scrolloff = 0,
   sidescrolloff = 10,
   signcolumn = "yes",
-
+  laststatus = 0,
+  showmode = false,
   conceallevel = 0, --so that ``is visible in markdown files
   pumheight = 10,
   pumblend = 10,
